@@ -1,0 +1,10 @@
+$sudo useradd -c "sister" -m sister (will add user with the username sister) 
+$sudo useradd -c "father" -m father 
+$sudo useradd -c "mother" -m mother 
+
+$sudo passwd sister (will change the password for the username after passwd, must have password to admin) 
+sudo passwd father
+sudo passwd mother
+
+sudo getent group male (will move males into the groupd created males)
+$sudo usermod -a -G male father #or $members male/ female) will be pt te females in to the female group) 
